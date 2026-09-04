@@ -1,0 +1,39 @@
+1. Determine a structuring strategy.
+
+    a.	Applies to: structure.html
+
+    b.
+        Document Outline Example.
+
+        body
+        ├── header — role="banner"
+        │   ├── h1: Comp 484
+        │   ├── h2: Structuring Pages
+        │   └── nav — role="navigation"
+        │
+        ├── main — role="main"
+        │   └── article
+        │       ├── header
+        │       │   └── h3: Conveying meaning through structure
+        │       │
+        │       ├── section
+        │       │   └── h3: Sectioning elements
+        │       │
+        │       ├── section
+        │       │   ├── h3: Document outlines
+        │       │   └── aside — role="complementary"
+        │       │       └── h4: W3C Warning
+        │       │
+        │       └── section
+        │           └── h3: WAI-ARIA Roles
+        │
+        └── footer — role="contentinfo"
+            └── CSUN information
+
+        Structural Tags are used for the following: nav contains site navigation, article groups the main content, section separates topics, aside contains related extra information.
+
+    c. Semantic Tags are used for the following: header contains the title and nav links, footer contains the csun adress information, and main contains the primary content, even if its sectioned a bunch.
+
+    d. HW tags diagram added to the Images folder labeled "New_Tags_Diagram_7".
+
+    e. Document Outline added to Images folder labeled "Doc_Outline_10".
